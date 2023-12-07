@@ -9,9 +9,7 @@ export const metadata: Metadata = {
 const CartPage = () => {
     return (
         <div className='h-[calc(100vh-9rem)] md:h-[calc(100vh-12rem)] flex flex-col text-gray-800 lg:flex-row'>
-            {/* PRODUCTS CONTAINER */}
             <div className='h-1/2 p-4 flex flex-col justify-center lg:h-full lg:w-2/3 2xl:w-1/2 lg:p-20 xl:p-40'>
-                {/* SINGLE ITEM */}
                 <div className='flex items-center justify-between mb-4 w-full'>
                     <Image src="/Poke-1.png" alt='' width={100} height={100}/>
                     <div className='w-80'>
@@ -40,7 +38,6 @@ const CartPage = () => {
                     <span className='cursor-pointer'>X</span>
                 </div>
             </div>
-            {/* PAYMENT CONTAINER */}
             <div className='h-1/2 p-4 bg-gray-100 flex flex-col gap-4 justify-center lg:h-full lg:w-1/3 2xl:w-1/2 lg:p-20 2xl:p-40 2xl:text-xl 2xl:gap-6'>
                 <div className='flex justify-between'>
                     <span>Subtotal (3 items)</span>
